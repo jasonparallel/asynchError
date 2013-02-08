@@ -16,6 +16,6 @@ public class AsynchService {
 	
 	@Async(value="myExecutor")
 	public void nameTest(){
-		System.out.println("Ran asynch with out name set");
+		System.out.println("Ran asynch with name set");
 	}
 }
